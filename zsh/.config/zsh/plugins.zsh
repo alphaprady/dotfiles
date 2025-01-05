@@ -1,6 +1,8 @@
 #!/bin/sh
+
 plug "zsh-users/zsh-autosuggestions"
 plug "zsh-users/zsh-syntax-highlighting"
+plug "hlissner/zsh-autopair"
 
 if command -v fnm &> /dev/null; then
     eval "$(fnm env --use-on-cd)"
